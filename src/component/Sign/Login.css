@@ -1,0 +1,55 @@
+
+.loginform{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45rem;
+    margin: 40px;
+}
+.signuppage{
+     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    /* background-color: #ffffff; */
+    /* background-color: pink; */
+    box-shadow: 0px 3px 2px 1px rgb(0 0 0 / 20%);
+    padding: 40px;
+    border-radius: 10px;   
+
+}
+.Emailline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* background-color: #ffffff; */
+}
+.inputform{
+    width: 40rem;
+    height: 3rem;
+    border-radius: 5px;
+    /* border: white; */
+    border: 1px solid gray;
+}
+.inputname{
+ margin-right: 38rem;
+}
+.inputpassword{
+ margin-right: 36rem;
+}
+.inputConPassword{
+    margin-right: 31rem;
+}
+.btn{
+    width: 10rem;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 15px;
+    background-color: #26b69c;
+    color: white;
+    border: #26b69c;
+    border-radius: 5px;
+}

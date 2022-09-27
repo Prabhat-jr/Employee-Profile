@@ -1,0 +1,135 @@
+.Profile{
+    border: 1px solid black;
+    align-items: center;
+    justify-content: space-around;
+    height: 48rem;
+    margin: 10px;
+    
+}
+.upload
+{
+    width: 100px;
+    position: relative;
+    margin: auto;
+}
+ .image{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%; 
+    border: 6px solid #eaeaea;
+}
+.upload .round{
+    position: absolute;
+    bottom: 5%;
+    left: 106%;
+    background: grey;
+    width: 48px;
+    height: 48px;
+    padding: 5px;
+    border-radius: 50%;
+    align-items: center;
+    line-height: 33px;
+    overflow: hidden;
+    border: 1px solid gray;
+}
+.Cimg
+{
+    color: #eaeaea;
+}
+.upload .round input[type="file"]
+{
+    position: absolute;
+    transform: scale(2);
+    opacity: 0;
+}
+input[type=file]::-webkit-file-upload-button{
+    cursor: pointer;
+}
+.fa .fa-camera:hover
+{
+    background: #d9a400;
+}
+.heading{
+    /* margin: 5px; */
+    box-shadow: 0px 3px 2px 1px rgb(0 0 0 / 20%);
+    height: 3rem;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.profilepage{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.lefttProfile{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 94px;
+    gap: 15px;
+}
+.RightProfile{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+} 
+.inputfield{
+    display: flex;
+    gap: 50px;
+    margin-top: 12px;
+}
+.f-label{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 12px;
+}
+.input{
+    width: 20rem;
+    height: 2rem;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.input1{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 2rem;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.selecttype{
+    margin-top: 11px;
+}
+.Sinputfield{
+    width: 10rem;
+    margin-top: 15px;  
+}
+.f-Slabel{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* margin-top: 12px; */
+}
+.select{
+    height: 2rem;
+    border-radius: 5px;
+}
+.para{
+    margin-left: 17rem;
+    color: red;
+    font-weight: bold;
+}
+.btn1{
+    display: flex;
+margin-left: 539px;
+gap: 15px;
+}
+.Cbtn{
+    width: 5rem;
+    height: 2rem;
+    background-color: #26b69c;
+    border-radius: 6px;
+}
